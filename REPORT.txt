@@ -1,1 +1,121 @@
-SALES ANALYSIS REPORTCloudExify Data Science – Month 1 Project 1Project Title: Sales Data AnalysisLanguage: Python (Jupyter Notebook)Dataset: Sample Superstore (train.csv)1. Project ObjectiveThe objective of this project was to analyze a retail sales dataset using Python. The analysis involved data loading, data cleaning, exploratory data analysis (EDA), visualization, and generating business insights to support data-driven decision-making.2. Dataset OverviewThe dataset contains sales records from a retail superstore operating across different regions of the United States.Dataset Summary* Total Records: 9,800* Total Features: 18* Date Range: 03 January 2015 – 30 December 2018* Number of Regions: 4* Number of Categories: 3* Number of Customers: 793* Number of Cities: 5293. Data CleaningThe following preprocessing steps were performed before analysis:* Loaded the dataset successfully using Pandas.* Checked for missing values.* Identified 11 missing values in the Postal Code column.* Verified that there were no duplicate records.* Converted the Order Date and Ship Date columns into DateTime format.* Renamed the required columns to match the project requirements.* Added a Units column for analysis compatibility.The dataset was successfully prepared for exploratory analysis.4. Exploratory Data AnalysisThe following descriptive statistics were calculated:MetricValueTotal Revenue$2,261,536.78Average Sale$230.77Median Sale$54.49Maximum Sale$22,638.48Minimum Sale$0.44Standard Deviation$626.65The large difference between the average and median sale indicates that a small number of very high-value orders increase the average sales value.5. Product AnalysisThe products were analyzed based on total revenue.Top 5 Revenue-Generating ProductsRankProductRevenue ($)1Canon imageCLASS 2200 Advanced Copier61,599.822Fellowes PB500 Electric Punch Plastic Comb Binding Machine27,453.383Cisco TelePresence System EX90 Videoconferencing Unit22,638.484HON 5400 Series Task Chairs for Big and Tall21,870.585GBC DocuBind TL300 Electric Binding System19,823.48These premium products generated significantly more revenue than the remaining products.6. Category AnalysisCategoryRevenue ($)OrdersAverage Sale ($)Technology827,455.871,813456.40Furniture728,658.582,078350.65Office Supplies705,422.335,909119.38Technology generated the highest overall revenue and also recorded the highest average sales value per order. Office Supplies accounted for the largest number of orders but had the lowest average sales value.7. Regional AnalysisRegionRevenue ($)OrdersWest710,219.683,140East669,518.732,785Central492,646.912,277South389,151.461,598The West region was the highest-performing region in terms of both revenue and number of orders, while the South region generated the lowest sales.8. Monthly Sales TrendMonthly sales analysis revealed fluctuations throughout the four-year period.* Best Sales Month: November 2018* Revenue in Best Month: $117,938.15This indicates increased customer purchasing activity during the end-of-year period.9. Visualizations GeneratedThe following visualizations were created during the analysis:* Top 10 Products by Revenue (Bar Chart)* Monthly Sales Trend (Line Chart)* Sales Distribution by Region (Pie Chart)* Revenue by Category (Bar Chart)* Sales Distribution HistogramThese visualizations provided a clear understanding of revenue distribution, regional performance, product performance, and sales trends.10. Key Business Insights* The company generated a total revenue of $2.26 million during the analysis period.* Technology was the most profitable product category, generating over $827,000 in revenue.* Office Supplies recorded the highest number of customer orders but produced the lowest average sale value.* The West region achieved the highest overall sales, followed by the East region.* November 2018 was the highest-performing sales month, suggesting strong seasonal demand.* A small number of premium products contributed a significant portion of the company's total revenue.* Sales values were highly variable, indicating the presence of both low-cost and high-value transactions.11. ConclusionThis project successfully demonstrated the complete sales analysis process using Python, Pandas, NumPy, and Matplotlib. The dataset was cleaned, explored, analyzed, and visualized to extract meaningful business insights.The findings indicate that Technology products and the West region are the primary contributors to revenue, while seasonal trends suggest increased sales toward the end of the year. These insights can help management improve inventory planning, marketing strategies, and business decision-making.Overall, the project achieved all of its objectives and demonstrates the effective use of data analysis techniques for extracting valuable information from sales data.Project Status: Completed Successfully. 
+SALES ANALYSIS REPORT
+CloudExify Data Science √ê Month 1 Project 1
+Project Title: Sales Data Analysis
+Language: Python (Jupyter Notebook)
+Dataset: Sample Superstore (train.csv)
+1. Project Objective
+The objective of this project was to analyze a retail sales dataset using Python. The analysis involved data loading, data cleaning, exploratory data analysis (EDA), visualization, and generating business insights to support data-driven decision-making.
+2. Dataset Overview
+The dataset contains sales records from a retail superstore operating across different regions of the United States.
+Dataset Summary
+* Total Records: 9,800
+* Total Features: 18
+* Date Range: 03 January 2015 √ê 30 December 2018
+* Number of Regions: 4
+* Number of Categories: 3
+* Number of Customers: 793
+* Number of Cities: 529
+3. Data Cleaning
+The following preprocessing steps were performed before analysis:
+* Loaded the dataset successfully using Pandas.
+* Checked for missing values.
+* Identified 11 missing values in the Postal Code column.
+* Verified that there were no duplicate records.
+* Converted the Order Date and Ship Date columns into DateTime format.
+* Renamed the required columns to match the project requirements.
+* Added a Units column for analysis compatibility.
+The dataset was successfully prepared for exploratory analysis.
+4. Exploratory Data Analysis
+The following descriptive statistics were calculated:
+Metric
+Value
+Total Revenue
+$2,261,536.78
+Average Sale
+$230.77
+Median Sale
+$54.49
+Maximum Sale
+$22,638.48
+Minimum Sale
+$0.44
+Standard Deviation
+$626.65
+The large difference between the average and median sale indicates that a small number of very high-value orders increase the average sales value.
+5. Product Analysis
+The products were analyzed based on total revenue.
+Top 5 Revenue-Generating Products
+Rank
+Product
+Revenue ($)
+1
+Canon imageCLASS 2200 Advanced Copier
+61,599.82
+2
+Fellowes PB500 Electric Punch Plastic Comb Binding Machine
+27,453.38
+3
+Cisco TelePresence System EX90 Videoconferencing Unit
+22,638.48
+4
+HON 5400 Series Task Chairs for Big and Tall
+21,870.58
+5
+GBC DocuBind TL300 Electric Binding System
+19,823.48
+These premium products generated significantly more revenue than the remaining products.
+6. Category Analysis
+Category
+Revenue ($)
+Orders
+Average Sale ($)
+Technology
+827,455.87
+1,813
+456.40
+Furniture
+728,658.58
+2,078
+350.65
+Office Supplies
+705,422.33
+5,909
+119.38
+Technology generated the highest overall revenue and also recorded the highest average sales value per order. Office Supplies accounted for the largest number of orders but had the lowest average sales value.
+7. Regional Analysis
+Region
+Revenue ($)
+Orders
+West
+710,219.68
+3,140
+East
+669,518.73
+2,785
+Central
+492,646.91
+2,277
+South
+389,151.46
+1,598
+The West region was the highest-performing region in terms of both revenue and number of orders, while the South region generated the lowest sales.
+8. Monthly Sales Trend
+Monthly sales analysis revealed fluctuations throughout the four-year period.
+* Best Sales Month: November 2018
+* Revenue in Best Month: $117,938.15
+This indicates increased customer purchasing activity during the end-of-year period.
+
+9. Key Business Insights
+* The company generated a total revenue of $2.26 million during the analysis period.
+* Technology was the most profitable product category, generating over $827,000 in revenue.
+* Office Supplies recorded the highest number of customer orders but produced the lowest average sale value.
+* The West region achieved the highest overall sales, followed by the East region.
+* November 2018 was the highest-performing sales month, suggesting strong seasonal demand.
+* A small number of premium products contributed a significant portion of the company's total revenue.
+* Sales values were highly variable, indicating the presence of both low-cost and high-value transactions.
+10. Conclusion
+This project successfully demonstrated the complete sales analysis process using Python, Pandas, NumPy, and Matplotlib. The dataset was cleaned, explored, analyzed, and visualized to extract meaningful business insights.
+The findings indicate that Technology products and the West region are the primary contributors to revenue, while seasonal trends suggest increased sales toward the end of the year. These insights can help management improve inventory planning, marketing strategies, and business decision-making.
+Overall, the project achieved all of its objectives and demonstrates the effective use of data analysis techniques for extracting valuable information from sales data.
+Project Status: Completed Successfully.
+ 
